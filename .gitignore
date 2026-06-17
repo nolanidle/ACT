@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+public_html/server/node_modules/
+public_html/client/node_modules/
+
+# Build output
+public_html/dist/
+public_html/client/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Env (committed intentionally per spec, but ignore local overrides)
+.env.local
+*.env.local

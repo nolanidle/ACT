@@ -1,0 +1,71 @@
+{
+  "description": "ACTstroyds Math reference — 3 standalone questions",
+  "questions": [
+    {
+      "section": "math",
+      "topic": "Linear Equations",
+      "difficulty": "easy",
+      "passage_questions": false,
+      "question_text": "A store sells notebooks for $3 each and pens for $1.50 each. Jasmine buys a total of 10 items and spends exactly $24.00. How many notebooks did she buy?",
+      "question_latex": null,
+      "choices": [
+        "A. 4",
+        "B. 5",
+        "C. 6",
+        "D. 8"
+      ],
+      "correct_answer": "C",
+      "explanation": "Let n = number of notebooks and p = number of pens. Set up the system: n + p = 10 and 3n + 1.5p = 24. From the first equation, p = 10 − n. Substitute into the second: 3n + 1.5(10 − n) = 24, which gives 3n + 15 − 1.5n = 24, so 1.5n = 9, and n = 6. Jasmine bought 6 notebooks (and 4 pens). Check: 6($3) + 4($1.50) = $18 + $6 = $24. ✓",
+      "visual_json": null
+    },
+    {
+      "section": "math",
+      "topic": "Geometry — Right Triangles and the Pythagorean Theorem",
+      "difficulty": "medium",
+      "passage_questions": false,
+      "question_text": "In the figure below, triangle ABC has a right angle at B. The length of AB is 8 units and the length of BC is 6 units. What is the length of AC, in units?",
+      "question_latex": null,
+      "choices": [
+        "A. 7",
+        "B. 9",
+        "C. 10",
+        "D. 14"
+      ],
+      "correct_answer": "C",
+      "explanation": "Because the right angle is at B, the hypotenuse is AC. By the Pythagorean theorem: AC² = AB² + BC² = 8² + 6² = 64 + 36 = 100. Therefore AC = √100 = 10. This is the classic 6-8-10 right triangle (a scaled 3-4-5 triple).",
+      "visual_json": {
+        "type": "coordinate_plane",
+        "description": "Right triangle ABC with the right angle at B. Vertices: A at the origin, B directly to the right of A, C directly above B.",
+        "elements": [
+          {"type": "line", "from": [0, 0], "to": [8, 0]},
+          {"type": "line", "from": [8, 0], "to": [8, 6]},
+          {"type": "line", "from": [8, 6], "to": [0, 0]},
+          {"type": "right_angle_marker", "at": [8, 0]},
+          {"type": "label", "text": "A", "at": [-0.4, 0]},
+          {"type": "label", "text": "B", "at": [8.4, -0.4]},
+          {"type": "label", "text": "C", "at": [8.4, 6.2]},
+          {"type": "label", "text": "8", "at": [4, -0.5]},
+          {"type": "label", "text": "6", "at": [8.6, 3]},
+          {"type": "label", "text": "?", "at": [3.6, 3.4]}
+        ]
+      }
+    },
+    {
+      "section": "math",
+      "topic": "Trigonometry — Double-Angle Identities",
+      "difficulty": "hard",
+      "passage_questions": false,
+      "question_text": "If sin(θ) = 3/5 and θ is in the first quadrant, what is the value of sin(2θ)?",
+      "question_latex": "\\text{If } \\sin(\\theta) = \\frac{3}{5} \\text{ and } 0 < \\theta < \\frac{\\pi}{2}, \\text{ find } \\sin(2\\theta).",
+      "choices": [
+        "A. 24/25",
+        "B. 6/25",
+        "C. 7/25",
+        "D. 12/25"
+      ],
+      "correct_answer": "A",
+      "explanation": "Use the double-angle identity: sin(2θ) = 2 sin(θ) cos(θ). We are given sin(θ) = 3/5. Because θ is in the first quadrant, cos(θ) is positive. Using the Pythagorean identity, cos²(θ) = 1 − sin²(θ) = 1 − 9/25 = 16/25, so cos(θ) = 4/5. Therefore sin(2θ) = 2 · (3/5) · (4/5) = 24/25.",
+      "visual_json": null
+    }
+  ]
+}

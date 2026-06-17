@@ -1,0 +1,57 @@
+{
+  "description": "ACTstroyds Reading reference — literary passage with 3 questions",
+  "passage": "LITERARY NARRATIVE: The following excerpts are adapted from two short essays about life in modern cities.\n\nPassage A by Mirela Voss\n\nI came to the city believing I would feel small. Instead, standing at the corner of a wide boulevard on my first morning, I felt curiously expanded — as though the city's noise and scale had stretched something inside me that had been cramped for years. The streets smelled of coffee, diesel, and bread from a bakery I couldn't locate. A man in a yellow coat walked three dogs at once, and two children in school uniforms sprinted past arguing about something I didn't catch. All of this, I understood, was happening without any reference to me. The city did not need me to witness it. And yet simply by being present, I became part of its fabric, woven into the morning without effort or introduction. That anonymity, which I had dreaded, turned out to be a form of freedom I hadn't known I was missing.\n\nPassage B by Darnell Osei\n\nCities are skilled at making you feel temporary. I have lived in the same apartment for eleven years, but I still sometimes catch myself acting like a visitor — reading menus in restaurant windows without going in, mapping alternate routes I never take, saving events to my calendar and then staying home. My neighbor, an elderly woman named Constance, has lived on our block for forty years. She knows which corner store gives credit, which landlord fixes things promptly, and whose dog barks longest after midnight. She holds the neighborhood's memory in her hands while I hold only a phone full of screenshots. I wonder sometimes whether permanence is earned through duration or through attention, and whether I have been paying the wrong kind.",
+  "questions": [
+    {
+      "section": "reading",
+      "topic": "Main Idea and Author's Purpose",
+      "difficulty": "medium",
+      "passage_questions": true,
+      "question_text": "Both Passage A and Passage B are primarily concerned with which of the following themes?",
+      "question_latex": null,
+      "choices": [
+        "A. The economic hardships that cities impose on newcomers and long-term residents alike",
+        "B. The way individuals negotiate a sense of belonging and identity within an urban environment",
+        "C. The contrast between urban and rural ways of life and the psychological costs of migration",
+        "D. The importance of forming close personal relationships with neighbors in large cities"
+      ],
+      "correct_answer": "B",
+      "explanation": "Choice B is correct. Passage A explores how Voss, a newcomer, unexpectedly finds freedom and a sense of belonging in the city's anonymity. Passage B explores Osei's uncertainty about whether he truly belongs despite eleven years of residence. Both passages center on the individual's struggle to feel part of an urban place. Choice A is incorrect because neither passage focuses on economic hardship. Choice C is incorrect because neither author discusses rural life as a point of comparison. Choice D is incorrect because while Osei mentions his neighbor Constance, forming personal relationships is not the central concern of either essay.",
+      "visual_json": null
+    },
+    {
+      "section": "reading",
+      "topic": "Textual Evidence and Detail",
+      "difficulty": "easy",
+      "passage_questions": true,
+      "question_text": "According to Passage B, which of the following best describes what the narrator's neighbor Constance possesses that the narrator feels he lacks?",
+      "question_latex": null,
+      "choices": [
+        "F. A collection of digital tools for navigating the neighborhood",
+        "G. A deep, lived familiarity with the neighborhood accumulated over decades",
+        "H. A friendly relationship with every merchant on the block",
+        "J. The financial resources to invest in the neighborhood's future"
+      ],
+      "correct_answer": "G",
+      "explanation": "Choice G is correct. The narrator says Constance 'knows which corner store gives credit, which landlord fixes things promptly, and whose dog barks longest after midnight' and that 'she holds the neighborhood's memory in her hands.' This illustrates deep, practical, long-accumulated knowledge of the neighborhood — a form of belonging the narrator contrasts with his own 'phone full of screenshots.' Choice F is the opposite of what the passage describes; it is the narrator who relies on digital tools. Choice H overstates the detail; the passage does not say she has a friendly relationship with every merchant. Choice J is not supported by the text.",
+      "visual_json": null
+    },
+    {
+      "section": "reading",
+      "topic": "Vocabulary in Context and Inference",
+      "difficulty": "hard",
+      "passage_questions": true,
+      "question_text": "As used in Passage A (paragraph 1), the word \"anonymity\" most nearly means:",
+      "question_latex": null,
+      "choices": [
+        "A. Isolation caused by being ignored by people who dislike you",
+        "B. The condition of being unknown and unnoticed by those around you",
+        "C. A feeling of shame associated with not being recognized",
+        "D. The loss of personal identity that comes from living in a crowd"
+      ],
+      "correct_answer": "B",
+      "explanation": "Choice B is correct. In context, Voss explains that the city carries on 'without any reference to me' — it does not need her to witness it. She had 'dreaded' anonymity, suggesting she feared being unnoticed or unknown, but she reframes this as 'a form of freedom.' The word therefore means the state of being unknown or unnoticed, which turns out to be liberating rather than isolating. Choice A introduces the idea of dislike, which is not present in the passage. Choice C implies shame, which contradicts Voss's positive reframing. Choice D suggests a loss of identity, but Voss describes anonymity as expanding rather than erasing the self.",
+      "visual_json": null
+    }
+  ]
+}

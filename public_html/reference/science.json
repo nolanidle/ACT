@@ -1,0 +1,74 @@
+{
+  "description": "ACTstroyds Science reference — data table passage with 3 questions",
+  "passage": "Solubility and Temperature\n\nSolubility is defined as the maximum mass of a solute that can dissolve in 100 mL of solvent (typically water) at a specified temperature to form a saturated solution. Once the solubility limit is reached, additional solute will not dissolve and instead remains as a solid precipitate. Temperature is one of the most significant factors affecting the solubility of ionic compounds in water.\n\nA team of chemistry students measured the solubility of four common ionic compounds at three different temperatures: 20°C, 60°C, and 100°C. Their results are presented in Table 1 below. All measurements were taken at standard atmospheric pressure (1 atm). For each trial, the students added small increments of each compound to 100 mL of distilled water while stirring continuously, recording the mass of solute that had dissolved at the point when no additional solute could be incorporated into the solution.\n\nThe compounds selected represent a range of solubility behaviors: some dissolve much more readily at higher temperatures, while others show little change across the temperature range tested, and at least one exhibits an unusual inverse relationship between temperature and solubility.",
+  "visual_json": {
+    "type": "table",
+    "title": "Table 1: Solubility of Four Ionic Compounds at Various Temperatures",
+    "headers": [
+      "Compound",
+      "Formula",
+      "Solubility at 20°C (g/100 mL)",
+      "Solubility at 60°C (g/100 mL)",
+      "Solubility at 100°C (g/100 mL)"
+    ],
+    "rows": [
+      ["Potassium nitrate", "KNO₃", "31.6", "109.2", "246.0"],
+      ["Sodium chloride", "NaCl", "35.9", "37.3", "39.2"],
+      ["Copper(II) sulfate", "CuSO₄", "20.7", "40.0", "75.4"],
+      ["Calcium carbonate", "CaCO₃", "0.0013", "0.0012", "0.0011"]
+    ]
+  },
+  "questions": [
+    {
+      "section": "science",
+      "topic": "Data Interpretation — Reading a Table",
+      "difficulty": "easy",
+      "passage_questions": true,
+      "question_text": "According to Table 1, what is the solubility of potassium nitrate (KNO₃) at 60°C?",
+      "question_latex": null,
+      "choices": [
+        "A. 31.6 g/100 mL",
+        "B. 75.4 g/100 mL",
+        "C. 109.2 g/100 mL",
+        "D. 246.0 g/100 mL"
+      ],
+      "correct_answer": "C",
+      "explanation": "Choice C is correct. Table 1 shows that for potassium nitrate (KNO₃), the solubility at 60°C is 109.2 g/100 mL. Choice A (31.6 g/100 mL) is the solubility of KNO₃ at 20°C. Choice B (75.4 g/100 mL) is the solubility of CuSO₄ at 100°C. Choice D (246.0 g/100 mL) is the solubility of KNO₃ at 100°C.",
+      "visual_json": null
+    },
+    {
+      "section": "science",
+      "topic": "Scientific Investigation — Identifying Trends",
+      "difficulty": "medium",
+      "passage_questions": true,
+      "question_text": "Based on Table 1, which compound shows an INVERSE relationship between temperature and solubility — that is, its solubility decreases as temperature increases?",
+      "question_latex": null,
+      "choices": [
+        "F. Potassium nitrate (KNO₃)",
+        "G. Sodium chloride (NaCl)",
+        "H. Copper(II) sulfate (CuSO₄)",
+        "J. Calcium carbonate (CaCO₃)"
+      ],
+      "correct_answer": "J",
+      "explanation": "Choice J is correct. Calcium carbonate (CaCO₃) shows a solubility of 0.0013 g/100 mL at 20°C, 0.0012 g/100 mL at 60°C, and 0.0011 g/100 mL at 100°C — a slight but consistent decrease as temperature rises, making it the only compound in the table with an inverse temperature-solubility relationship. KNO₃ (Choice F) shows a dramatic increase, NaCl (Choice G) shows a slight increase, and CuSO₄ (Choice H) shows a clear increase. All three of those increase with temperature, the opposite of an inverse relationship.",
+      "visual_json": null
+    },
+    {
+      "section": "science",
+      "topic": "Scientific Reasoning — Comparison and Prediction",
+      "difficulty": "hard",
+      "passage_questions": true,
+      "question_text": "A student dissolves exactly 35 g of sodium chloride (NaCl) and exactly 35 g of potassium nitrate (KNO₃) each in separate 100 mL samples of water at 20°C. Based on Table 1, which of the following statements correctly describes the resulting solutions?",
+      "question_latex": null,
+      "choices": [
+        "A. Both solutions are unsaturated at 20°C, because 35 g is less than the solubility limit of both compounds.",
+        "B. The NaCl solution is nearly saturated and the KNO₃ solution is unsaturated, because NaCl has a solubility of 35.9 g/100 mL and KNO₃ has a solubility of 31.6 g/100 mL at 20°C.",
+        "C. The NaCl solution is unsaturated and the KNO₃ solution contains undissolved solid, because 35 g exceeds the solubility limit of KNO₃ but not NaCl at 20°C.",
+        "D. Both solutions are supersaturated at 20°C and will precipitate solids immediately."
+      ],
+      "correct_answer": "C",
+      "explanation": "Choice C is correct. At 20°C, Table 1 gives a solubility of 35.9 g/100 mL for NaCl and 31.6 g/100 mL for KNO₃. Adding 35 g of NaCl to 100 mL of water is below the 35.9 g limit, so that solution is unsaturated and all the NaCl dissolves. Adding 35 g of KNO₃ to 100 mL of water exceeds its 31.6 g limit, so approximately 3.4 g (35 − 31.6) would remain as undissolved solid. Choice A is incorrect because 35 g does exceed the solubility of KNO₃. Choice B is incorrect because it inverts the comparison — it is the KNO₃ solution, not the NaCl solution, that reaches its limit. Choice D is incorrect because neither amount exceeds the solubility limit by enough to describe supersaturation, and the NaCl solution does not reach its limit at all.",
+      "visual_json": null
+    }
+  ]
+}

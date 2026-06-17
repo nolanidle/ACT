@@ -1,0 +1,57 @@
+{
+  "description": "ACTstroyds English reference — inline underline passage with 3 questions",
+  "passage": "The Rise of Urban Farming\n\nIn cities across the United States, rooftops, vacant lots, and even old warehouses [1]has been transformed into thriving gardens and farms. Urban agriculture is no longer a fringe hobby; it has become a serious movement with roots in both environmental science and social justice. Community gardens provide fresh produce to neighborhoods [2]that often, lack access to affordable fruits and vegetables. In Chicago alone, more than 700 community gardens now operate within the city limits.\n\nBeyond food production, urban farms serve as outdoor classrooms where students learn about ecology, nutrition, and sustainable business practices. Advocates argue that these spaces strengthen neighborhood bonds and give residents a sense of ownership over their local environment. [3] Scientists have also noted that green rooftops reduce the urban heat island effect, lowering cooling costs in summer months. As land values rise and space grows scarce, urban farmers continue to find innovative ways to grow upward — stacking hydroponic trays and installing vertical planters — demonstrating that the future of agriculture may well be built into the walls of our cities.",
+  "questions": [
+    {
+      "section": "english",
+      "topic": "Punctuation and Grammar — Subject-Verb Agreement",
+      "difficulty": "medium",
+      "passage_questions": true,
+      "question_text": "Question 1 refers to the underlined portion [1] in the passage: \"has been transformed.\" Which of the following best replaces the underlined portion?",
+      "question_latex": null,
+      "choices": [
+        "A. NO CHANGE",
+        "B. have been transformed",
+        "C. are transforming",
+        "D. was transforming"
+      ],
+      "correct_answer": "B",
+      "explanation": "Choice B is correct because the subject of the clause is a compound plural noun phrase — 'rooftops, vacant lots, and even old warehouses' — which requires the plural verb form 'have been transformed.' The original 'has been transformed' incorrectly uses a singular verb with a plural subject. Choice C changes the meaning by using progressive tense where perfect aspect is more appropriate. Choice D uses singular past progressive, which is doubly incorrect.",
+      "visual_json": null
+    },
+    {
+      "section": "english",
+      "topic": "Punctuation — Unnecessary Commas",
+      "difficulty": "medium",
+      "passage_questions": true,
+      "question_text": "Question 2 refers to the underlined portion [2] in the passage: \"that often, lack access.\" Which of the following best replaces the underlined portion?",
+      "question_latex": null,
+      "choices": [
+        "A. NO CHANGE",
+        "B. that, often lack access",
+        "C. that often lack access",
+        "D. that often lacks access"
+      ],
+      "correct_answer": "C",
+      "explanation": "Choice C is correct because no comma is needed between the adverb 'often' and the verb 'lack.' The comma in the original (Choice A) and in Choice B incorrectly interrupts the flow of the relative clause 'that often lack access to affordable fruits and vegetables.' Choice D uses the singular 'lacks,' but the relative pronoun 'that' refers to the plural noun 'neighborhoods,' so the plural verb 'lack' is required.",
+      "visual_json": null
+    },
+    {
+      "section": "english",
+      "topic": "Rhetorical Skills — Transitions and Paragraph Organization",
+      "difficulty": "hard",
+      "passage_questions": true,
+      "question_text": "Question 3 asks about the underlined sentence [3]: \"Scientists have also noted that green rooftops reduce the urban heat island effect, lowering cooling costs in summer months.\" The writer is considering whether to keep or delete this sentence. Which choice best explains why this sentence should be KEPT?",
+      "question_latex": null,
+      "choices": [
+        "A. It should be kept because it provides a vivid personal anecdote that makes the paragraph more relatable.",
+        "B. It should be kept because it introduces a scientific benefit of urban farming that broadens the paragraph's focus beyond social advantages.",
+        "C. It should be kept because it repeats information already stated earlier in the passage, reinforcing the main argument.",
+        "D. It should be deleted because it shifts focus away from the economic benefits of urban farming, which is the paragraph's main topic."
+      ],
+      "correct_answer": "B",
+      "explanation": "Choice B is correct. The second paragraph discusses non-food benefits of urban farms — education, community bonds, and a sense of ownership. The sentence about green rooftops and the heat island effect adds an environmental and economic dimension (lower cooling costs) that broadens the discussion beyond purely social benefits, strengthening the paragraph's argument that urban farms offer wide-ranging value. Choice A is incorrect because the sentence is a scientific observation, not a personal anecdote. Choice C is wrong because this information has not been introduced earlier. Choice D is incorrect because the paragraph is not solely about economic benefits; the cooling-cost detail actually adds economic relevance.",
+      "visual_json": null
+    }
+  ]
+}
